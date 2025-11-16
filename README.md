@@ -1,13 +1,17 @@
 
-## 🚀 Sonic CD Mobile (Clone UI)
 
-**Um projeto React Native que replica a tela inicial do clássico jogo Sonic CD the hedgehog, com uma peculiaridade: a imagem de fundo é rotacionada em 90 graus!
----------------------------
+### <img width="81" height="103" alt="sonicMoedamini" src="https://github.com/user-attachments/assets/071c0edc-a23c-4d98-9850-679042e663b4" />  Sonic CD Mobile (Clone UI)
 
-## 🌟 Visão Geral
 
-**Este aplicativo React Native demonstra como implementar uma imagem de background rotacionada, mantendo o conteúdo principal (texto e botões) legível e corretamente orientado na tela. Ele serve como um exemplo prático do uso de `ImageBackground`, `transform` para rotação e a manipulação de estilos para garantir que os elementos se posicionem e preencham a tela como esperado, mesmo após transformações.
-----------------------------
+  Um projeto React Native que replica a tela inicial do clássico jogo Sonic CD the hedgehog, com uma peculiaridade: a imagem de fundo é rotacionada em 90 graus!
+
+  __________________________________
+
+### 🌟 Visão Geral
+
+  Este aplicativo React Native demonstra como implementar uma imagem de background rotacionada, mantendo o conteúdo principal (texto e botões) legível e corretamente orientado na tela. Ele serve como um exemplo prático do uso de `ImageBackground`, `transform` para rotação e a manipulação de estilos para garantir que os elementos se posicionem e preencham a tela como esperado, mesmo após transformações.
+  
+ __________________________________
 
 ## ✨ Funcionalidades da primeira tela
 
@@ -19,9 +23,9 @@
 
   ![sonicStart](https://github.com/user-attachments/assets/9b8a4bef-d9c1-45b5-aff1-ecb31f0cd0bd)
   
-----------------------------------------------------------------------------------
+ __________________________________
 
-  ## ✨ Funcionalidades da segunda tela
+  ## 🌴 Funcionalidades da segunda tela 🌴
   
 * **Simulação de Fase de Jogo:** Um ambiente visual simples que remete a uma fase do jogo :" 🌴PALMTREE PANIC 2🌴"
 * **Barra de Status do Jogo:** Exibição de informações como "Rings", "Time" e "Score".
@@ -32,19 +36,21 @@
 
   ![sonic2](https://github.com/user-attachments/assets/bb2b8f2d-69ff-4926-89af-a001beaff627)
 
-----------------------------------------------------------------
+ __________________________________
 
 ## 🛠 Tecnologias Utilizadas
 
 * **React Native:** Framework para desenvolvimento de aplicativos móveis nativos.
 * **JavaScript/TypeScript:** Linguagem de programação.
 * **Expo (opcional):** Para facilitar o desenvolvimento e testes via mobile.
------------------------------------------------------------
+  
+ __________________________________
 
 ## 🚀 Como Rodar o Projeto
 
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
---------------------------------------------------
+
+ __________________________________
 
 ### Pré-requisitos
 
@@ -53,9 +59,7 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
 * [Node.js](https://nodejs.org/en/download/)
 * [npm](https://www.npmjs.com/get-npm) (geralmente vem com Node.js) ou [Yarn](https://classic.yarnpkg.com/en/docs/install)
 * [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) (execute `npm install -g expo-cli` ou `yarn global add expo-cli`) ou [React Native CLI](https://reactnative.dev/docs/environment-setup)
--------------------------------------------------------------------
-
-### Instalação
+ __________________________________
 
 1.  **Clone o repositório:**
 
@@ -63,7 +67,7 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
     git clone [URL_DO_SEU_REPOSITORIO_AQUI]
     cd sonic-cd-mobile
     ```
------------------------------------------------------------------------
+ __________________________________
 
 2.  **Instale as dependências:**
 
@@ -72,14 +76,14 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
     # ou
     yarn install
     ```
--------------------------------------------------------------------
+ __________________________________
 
 3.  **Adicione a imagem do Sonic CD:**
 
     * Certifique-se de ter o arquivo `sonicStart.webp` na pasta `assets/`.
     * E a outra imagem `sonic2.jpg`
     * **Observação:** A imagem utilizada neste exemplo foi `{ uri: 'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg' }` durante o desenvolvimento para fins de exemplo. Substitua por `sonicImage from './assets/sonicStart.webp';` no `App.tsx` conforme sua preferência.
---------------------------------------------------------------
+ __________________________________
 
 ### Executando o Aplicativo
 
@@ -89,12 +93,12 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
     ```bash
     expo start
     ```
-    -----------------------------------------
-    
+     __________________________________
+
 3.  **Abra o aplicativo:**
     * Escaneie o código QR com o aplicativo Expo Go no seu celular (Android ou iOS).
     * Ou execute no simulador/emulador pressionando `i` para iOS ou `a` para Android no terminal.
------------------------------------------------------
+ __________________________________
 
 #### Com React Native CLI (para projetos nativos puros)
 
@@ -102,18 +106,20 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
     ```bash
     npx react-native start
     ```
-    ---------------------------------------------
-2.  **Execute em uma plataforma específica:**
+ __________________________________
+
+3.  **Execute em uma plataforma específica:**
     * **Android:**
         ```bash
         npx react-native run-android
         ```
-        ---------------------------------------------
+      __________________________________
+
     * **iOS:** (Requer um Mac com Xcode)
         ```bash
         npx react-native run-ios
         ```
---------------------------------------------
+ __________________________________
 
 ## 💡 Aprendizados e Insights
 
@@ -121,7 +127,8 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
 * O uso de `transform: [{ rotate: '...' }]` para rotação de elementos.
 * A necessidade de aplicar uma rotação inversa ao conteúdo filho quando o pai é rotacionado.
 * Como garantir que um `ImageBackground` preencha a tela inteira, mesmo após rotação, utilizando `Dimensions` e `position: 'absolute'`.
-------------------------------------------------
+
+ __________________________________
 
 
 <table style="width:100%; border:none;">
