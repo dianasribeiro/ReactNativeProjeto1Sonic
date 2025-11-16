@@ -7,13 +7,13 @@
 
   __________________________________
 
-### 🌟 Visão Geral
+### 🪙 Visão Geral 
 
   Este aplicativo React Native demonstra como implementar uma imagem de background rotacionada, mantendo o conteúdo principal (texto e botões) legível e corretamente orientado na tela. Ele serve como um exemplo prático do uso de `ImageBackground`, `transform` para rotação e a manipulação de estilos para garantir que os elementos se posicionem e preencham a tela como esperado, mesmo após transformações.
   
  __________________________________
 
-## ✨ Funcionalidades da primeira tela
+## 🎮 Funcionalidades da primeira tela
 
 * **Background de Imagem Rotacionado:** A imagem icônica do Sonic CD é usada como fundo e virada em 90 graus.
 * **Conteúdo Orientado Corretamente:** Texto e elementos interativos sobre a imagem de fundo são ajustados com rotação inversa para permanecerem legíveis.
@@ -138,10 +138,12 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
 ![sonic_cd_all_zones_by_ruensor_de46aoc-fullview](https://github.com/user-attachments/assets/6f97ed98-a146-42f4-92ab-bd89e1a3f0d3)
 
 
-________________________________________________________________
+_____________________________________________________________________________
 
 
- ******************************************************************               
+    
+  🕹️🛡️🪙👻🪙🌊🪙🌲🪙🔥🪙🎮🪙🌴🪙👾🪙☠️🪙💥🪙💣🪙🐉🪙💎🪙🚧🏆🕹️
+
 
 <table style="width:100%; border:none;">
   <tr>
