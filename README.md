@@ -27,7 +27,7 @@
 
   ## 🌴 Funcionalidades da segunda tela 🌴
   
-* **Simulação de Fase de Jogo:** Um ambiente visual simples que remete a uma fase do jogo :" 🌴PALMTREE PANIC 2🌴"
+* **Simulação de Fase de Jogo:** Um ambiente visual simples que remete a uma fase do jogo :"🌴PALMTREE PANIC 2🌴"
 * **Barra de Status do Jogo:** Exibição de informações como "Rings", "Time" e "Score".
 * **Diálogo de Confirmação:** Ao tentar sair (ou acionar uma ação), é apresentado um `TextInput` ao usuário.
 * **Interação com `TextInput`:** O usuário pode digitar uma resposta (ex: "sim" ou "não").
