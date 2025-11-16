@@ -93,7 +93,7 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
     ```bash
     expo start
     ```
-     __________________________________
+ __________________________________
 
 3.  **Abra o aplicativo:**
     * Escaneie o código QR com o aplicativo Expo Go no seu celular (Android ou iOS).
@@ -113,7 +113,7 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
         ```bash
         npx react-native run-android
         ```
-      __________________________________
+ __________________________________
 
     * **iOS:** (Requer um Mac com Xcode)
         ```bash
@@ -129,6 +129,17 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
 * Como garantir que um `ImageBackground` preencha a tela inteira, mesmo após rotação, utilizando `Dimensions` e `position: 'absolute'`.
 
  __________________________________
+ ___________________________________
+
+
+  # 🎮  Algumas fases do jogo 🎮
+   
+
+![sonic_cd_all_zones_by_ruensor_de46aoc-fullview](https://github.com/user-attachments/assets/6f97ed98-a146-42f4-92ab-bd89e1a3f0d3)
+
+
+________________________________________________________________
+_________________________________________________________________
 
 
 <table style="width:100%; border:none;">
@@ -150,7 +161,11 @@ Certifique-se de ter o Node.js, npm (ou Yarn) e o Expo CLI (se for usar Expo) in
   </tr>
 </table>
 
----
+
+
+
+
+
 
 
 
