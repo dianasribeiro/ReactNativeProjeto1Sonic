@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// App.tsx
+import React from "react";
+import { View, Text, TouchableOpacity, ImageBackground } from "react-native"; // <-- Importação CORRETA AQUI
+import { styles } from "./styles";
+import sonicImage from './assets/sonicStart.webp';
 
-export default function App() {
+
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ImageBackground
+        source={sonicImage}
+        resizeMode="cover"
+        style={styles.image}>
+        <View style={styles.contentWrapper}>
+          <TouchableOpacity onPress={() => console.log('Start button pressed!')}>
+            <Text style={styles.title}>Touch to start</Text>
+          </TouchableOpacity>
+        </View>
+      </ImageBackground>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+   
+export default App;
