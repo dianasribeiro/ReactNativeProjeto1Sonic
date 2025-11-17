@@ -21,8 +21,8 @@
 * **Exemplo de Componente `ImageBackground`:** Demonstra o uso eficaz de `ImageBackground` para fundos complexos.
 * **Interatividade Básica:** Um botão "Touch to start" para simular a interação inicial do jogo.
 
-  ![sonicStart](https://github.com/user-attachments/assets/9b8a4bef-d9c1-45b5-aff1-ecb31f0cd0bd)
-  
+ ![sonic tela clonada start](https://github.com/user-attachments/assets/a7318174-3124-4fd5-9305-e45f1cdaf5e4)
+
  __________________________________
 
   ## 🌴 Funcionalidades da segunda tela 🌴
@@ -35,6 +35,10 @@
 * **Gerenciamento de Estado:** Demonstra como o estado do componente (o valor do `TextInput`) é gerenciado.
 
   ![sonic2](https://github.com/user-attachments/assets/bb2b8f2d-69ff-4926-89af-a001beaff627)
+  
+
+  ![sonic tela clonada exit](https://github.com/user-attachments/assets/bcb07099-547c-47ea-990d-b3a31868f720)
+
 
  __________________________________
 
