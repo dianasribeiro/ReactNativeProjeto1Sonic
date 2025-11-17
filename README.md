@@ -34,10 +34,11 @@
 * **Feedback ao Usuário:** Alertas simples para indicar o resultado da confirmação de saída.
 * **Gerenciamento de Estado:** Demonstra como o estado do componente (o valor do `TextInput`) é gerenciado.
 
-  ![sonic2](https://github.com/user-attachments/assets/bb2b8f2d-69ff-4926-89af-a001beaff627)
-  
+ ![sonic2](https://github.com/user-attachments/assets/bb2b8f2d-69ff-4926-89af-a001beaff627)
+ 
+___________________________________________________________________________________________  
 
-  ![sonic tela clonada exit](https://github.com/user-attachments/assets/bcb07099-547c-47ea-990d-b3a31868f720)
+   ![sonic tela clonada exit](https://github.com/user-attachments/assets/bcb07099-547c-47ea-990d-b3a31868f720)
 
 
  __________________________________
